@@ -11,7 +11,7 @@ message = произвольный текст без \<NL> в UTF-8 (ru_RU)
 
 ### 1 Регистрация нового пользователя
 
-`
+```
 C: register\<NL>
    name\<NL>
    password\<NL>
@@ -20,7 +20,7 @@ S: Error\<NL>
    description\<NL>
 
 S: Ok\<NL>
-`
+```
 
 ### Аутентификация (логин)
 
